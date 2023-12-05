@@ -24,7 +24,7 @@ export type SocialMedia =
   | "Facebook"
   | "Instagram"
   | "LinkedIn"
-  | "Mail"
+  | "E-mail"
   | "Twitter"
   | "Twitch"
   | "YouTube"
@@ -39,4 +39,5 @@ export type SocialMedia =
   | "Skype"
   | "Steam"
   | "Telegram"
-  | "Mastodon";
+  | "Mastodon"
+  | "Site Profissional";
