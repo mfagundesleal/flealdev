@@ -13,7 +13,7 @@ export const SITE: Site = {
 export const LOCALE = ["pt-BR"]; // set to [] to use the environment default
 
 export const LOGO_IMAGE = {
-  enable: false,
+  enable: true,
   svg: true,
   width: 216,
   height: 46,
@@ -35,13 +35,7 @@ export const SOCIALS: SocialObjects = [
   {
     name: "E-mail",
     href: "mailto:michel@sisefficere.com.br",
-    linkTitle: `${SITE.title} on Mastodon`,
-    active: false,
-  },
-  {
-    name: "Site Profissional",
-    href: "https://sisefficere.com.br",
-    linkTitle: `Efficere Negócios Digitais é a pessoa jurídica por trás da flealdev.`,
-    active: false,
+    linkTitle: `${SITE.title} no E-mail`,
+    active: true,
   },
 ];

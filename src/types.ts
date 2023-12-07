@@ -39,5 +39,4 @@ export type SocialMedia =
   | "Skype"
   | "Steam"
   | "Telegram"
-  | "Mastodon"
-  | "Site Profissional";
+  | "Mastodon";
