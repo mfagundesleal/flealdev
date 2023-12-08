@@ -14,13 +14,13 @@ const { activeNav } = Astro.props;
   <a id="skip-to-content" href="#main-content">Skip to content</a>
   <div class="nav-container">
     <div class="top-nav-wrap">
-      <a href="/" class="logo whitespace-nowrap">
-            <img
-              src="/assets/logo.svg"
-              alt={SITE.title}
-              width={LOGO_IMAGE.width}
-              height={LOGO_IMAGE.height}
-            />
+      <a href="/" class="logo-flealdev whitespace-nowrap">
+          <img
+            src="/assets/logo.svg"
+            alt={SITE.title}
+            width={LOGO_IMAGE.width}
+            height={LOGO_IMAGE.height}
+          />
       </a>
       <nav id="nav-menu">
         <button
@@ -119,7 +119,7 @@ const { activeNav } = Astro.props;
   .top-nav-wrap {
     @apply relative flex w-full items-center justify-between p-4 sm:items-center sm:py-8;
   }
-  .logo {
+  .logo-flealdev {
     @apply py-1 text-xl font-semibold sm:static sm:text-2xl;
   }
   .hamburger-menu {
