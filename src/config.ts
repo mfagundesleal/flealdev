@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Michel Leal",
   desc: "Tutoriais sobre tecnologia, dicas de desenvolvimento web, opiniões e muito conhecimento sobre o mundo dos sistemas de informação.",
   title: "flealdev",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "",
   lightAndDarkMode: true,
   postPerPage: 6,
 };
