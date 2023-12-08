@@ -10,7 +10,6 @@ import { SITE } from "@config";
 export interface Props {
   post: CollectionEntry<"blog">;
 }
-export const prerender = true
 
 export async function getStaticPaths() {
   const posts = await getCollection("blog", ({ data }) => !data.draft);
