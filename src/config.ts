@@ -12,13 +12,6 @@ export const SITE: Site = {
 
 export const LOCALE = ["pt-BR"]; // set to [] to use the environment default
 
-export const LOGO_IMAGE = {
-  enable: true,
-  svg: false,
-  width: 216,
-  height: 46,
-};
-
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",

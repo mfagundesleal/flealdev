@@ -1,5 +1,5 @@
 ---
-import { LOGO_IMAGE, SITE } from "@config";
+import { SITE } from "@config";
 import Hr from "./Hr.astro";
 import LinkButton from "./LinkButton.astro";
 
@@ -18,8 +18,8 @@ const { activeNav } = Astro.props;
           <img
             src="/assets/logo.svg"
             alt={SITE.title}
-            width={LOGO_IMAGE.width}
-            height={LOGO_IMAGE.height}
+            width="250"
+            height="82"
           />
       </a>
       <nav id="nav-menu">
