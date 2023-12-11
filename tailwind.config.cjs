@@ -16,11 +16,6 @@ module.exports = {
     screens: {
       sm: "640px",
     },
-
-    // Uncomment the following extend
-    // if existing Tailwind color palette will be used
-
-    // extend: {
     textColor: {
       skin: {
         base: withOpacity("--color-text-base"),
@@ -59,7 +54,19 @@ module.exports = {
     fontFamily: {
       mono: ["IBM Plex Mono", "monospace"],
     },
-    // },
+    extend:{
+        typography: {
+          DEFAULT: {
+            css: {
+              table:{
+                display:"block",
+                'overflow-x': "auto",
+                width: "100%"
+              }
+            }
+          }
+      }
+    }
   },
   plugins: [require("@tailwindcss/typography")],
 };
