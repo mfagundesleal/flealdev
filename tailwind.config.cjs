@@ -62,6 +62,16 @@ module.exports = {
                 display:"block",
                 'overflow-x': "auto",
                 width: "100%"
+              },
+              'details>div':{
+                "padding-left": "1rem",
+              },
+              details:{
+                'margin-top': '0.25rem',
+                'margin-bottom': '0.25rem'
+              },
+              'details>summary':{
+                'text-decoration': "underline"
               }
             }
           }
