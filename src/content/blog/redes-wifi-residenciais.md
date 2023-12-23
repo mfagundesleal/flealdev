@@ -12,7 +12,7 @@ description:
   Saiba como utilizar seu wifi da melhor forma!
 ---
 
-## Table of contents
+### índice
 
 ## Introdução
 
