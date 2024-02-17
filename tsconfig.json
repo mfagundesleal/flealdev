@@ -4,14 +4,17 @@
     "baseUrl": "src",
     "jsx": "react-jsx",
     "paths": {
-      "@assets/*": ["assets/*"],
+      "@assets/*": ["../public/assets/*"],
       "@config": ["config.ts"],
-      "@components/*": ["components/*"],
+      "@atoms/*": ["lib/components/atoms/*"],
+      "@molecules/*": ["lib/components/molecules/*"],
+      "@organisms/*": ["lib/components/organisms/*"],
       "@content/*": ["content/*"],
-      "@layouts/*": ["layouts/*"],
+      "@templates/*": ["lib/components/templates/*"],
+      "@layout": ["lib/components/templates/layout.astro"],
       "@pages/*": ["pages/*"],
-      "@styles/*": ["styles/*"],
-      "@utils/*": ["utils/*"]
+      "@styles/*": ["lib/styles/*"],
+      "@utils/*": ["lib/utils/*"]
     }
   }
 }

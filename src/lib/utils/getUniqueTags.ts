@@ -1,4 +1,4 @@
-import { slugifyStr } from "./slugify";
+import { slugifyStr } from "@utils/slugify";
 import type { CollectionEntry } from "astro:content";
 
 const getUniqueTags = (posts: CollectionEntry<"blog">[]) => {

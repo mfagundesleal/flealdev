@@ -1,10 +1,10 @@
 ---
 import { type CollectionEntry, getCollection } from "astro:content";
-import Layout from "@layouts/Layout.astro";
-import Main from "@layouts/Main.astro";
-import Header from "@components/Header.astro";
-import Footer from "@components/Footer.astro";
-import Card from "@components/Card";
+import Layout from "@layout";
+import Main from "@templates/main.astro";
+import Header from "@organisms/header.astro";
+import Footer from "@organisms/footer.astro";
+import Card from "@molecules/card";
 import getUniqueTags from "@utils/getUniqueTags";
 import getPostsByTag from "@utils/getPostsByTag";
 import slugify from "@utils/slugify";
@@ -58,3 +58,4 @@ const sortTagsPost = getSortedPosts(tagPosts);
   </Main>
   <Footer />
 </Layout>
+lib/utils/getUniqueTagslib/utils/getPostsByTaglib/utils/slugifylib/utils/getSortedPosts

@@ -1,7 +1,7 @@
 ---
 import { SITE } from "@config";
-import Hr from "./Hr.astro";
-import LinkButton from "./LinkButton.astro";
+import Hr from "@atoms/hr.astro";
+import LinkButton from "@atoms/link-button.astro";
 
 export interface Props {
   activeNav?: "posts" | "categorias" | "sobre" | "pesquisa";
@@ -11,7 +11,7 @@ const { activeNav } = Astro.props;
 ---
 
 <header>
-  <a id="skip-to-content" href="#main-content">Skip to content</a>
+  <a id="skip-to-content" href="#main-content">Voltar para o conteúdo</a>
   <div class="nav-container">
     <div class="top-nav-wrap">
       <a href="/" class=" whitespace-nowrap">

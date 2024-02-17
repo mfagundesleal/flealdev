@@ -1,9 +1,9 @@
 ---
-import Layout from "@layouts/Layout.astro";
-import Header from "@components/Header.astro";
-import Footer from "@components/Footer.astro";
-import Tag from "@components/Tag.astro";
-import Datetime from "@components/Datetime";
+import Layout from "@layout";
+import Header from "@organisms/header.astro";
+import Footer from "@organisms/footer.astro";
+import Tag from "@atoms/tag.astro";
+import Datetime from "@molecules/datetime";
 import type { CollectionEntry } from "astro:content";
 import { slugifyStr } from "@utils/slugify";
 
@@ -70,4 +70,4 @@ const ogUrl = new URL(
   .tags-container {
     @apply my-8;
   }
-</style>
+</style>lib/utils/slugify

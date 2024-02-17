@@ -1,5 +1,5 @@
 ---
-author: Sat Naing
+author: Michel Leal
 pubDatetime: 2023-12-18
 title: Redes Wi-Fi residenciais
 postSlug: redes-wifi-residenciais

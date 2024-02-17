@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/AboutLayout.astro
+layout: ../lib/components/templates/about.astro
 title: "Sobre"
 ---
 

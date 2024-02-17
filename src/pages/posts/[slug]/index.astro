@@ -1,7 +1,7 @@
 ---
 import { type CollectionEntry, getCollection } from "astro:content";
-import Posts from "@layouts/Posts.astro";
-import PostDetails from "@layouts/PostDetails.astro";
+import Posts from "@templates/posts.astro";
+import PostDetails from "@templates/post-details.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import getPageNumbers from "@utils/getPageNumbers";
 import slugify from "@utils/slugify";
@@ -58,3 +58,4 @@ const paginatedPosts = sortedPosts.slice(startPost, lastPost);
     />
   )
 }
+lib/utils/getSortedPostslib/utils/getPageNumberslib/utils/slugify
